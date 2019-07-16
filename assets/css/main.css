@@ -1308,12 +1308,16 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			display: flex;
+			width: 8rem;
+			height: 8rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			align-items: center;
+			justify-content: center;
 		}
+
 
 			#header .logo .icon:before {
 				font-size: 2rem;
