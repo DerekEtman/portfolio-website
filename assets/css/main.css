@@ -76,6 +76,7 @@ input, select, textarea {
 
 	@-ms-viewport {
 		width: device-width;
+		/* device-width is interesting I didnt know you can directly target mobile devices this way instead of using a number*/
 	}
 
 	@media screen and (max-width: 480px) {
@@ -114,7 +115,7 @@ input, select, textarea {
 	html {
 		font-size: 16pt;
 	}
-
+	/* using a desktop first approach*/
 		@media screen and (max-width: 1680px) {
 
 			html {
@@ -178,7 +179,7 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 1rem 0;
+		margin: 0 0 1rem 0; /* rem unit used as a margin!*/
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
@@ -194,7 +195,7 @@ input, select, textarea {
 			width: -webkit-max-content;
 			width: -ms-max-content;
 			width: max-content;
-			padding-bottom: 0.5rem;
+			padding-bottom: 0.5rem; /*rem  is the defacto unit used in this build*/
 			margin: 0 0 2rem 0;
 		}
 
