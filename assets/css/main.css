@@ -6,6 +6,18 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+@font-face {
+	font-family: 'icomoon';
+	src:  url('fonts/icomoon.eot?jmlzl5');
+	src:  url('fonts/icomoon.eot?jmlzl5#iefix') format('embedded-opentype'),
+	  url('fonts/icomoon.ttf?jmlzl5') format('truetype'),
+	  url('fonts/icomoon.woff?jmlzl5') format('woff'),
+	  url('fonts/icomoon.svg?jmlzl5#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+  }
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -225,6 +237,10 @@ input, select, textarea {
 
 	h6 {
 		font-size: 0.6rem;
+	}
+
+	.icon-write{
+		content: icon-1-white;
 	}
 
 	@media screen and (max-width: 736px) {
