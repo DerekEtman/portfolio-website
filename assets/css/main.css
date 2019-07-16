@@ -1309,11 +1309,11 @@ input, select, textarea {
 
 		#header .logo {
 			display: flex;
-			width: 8rem;
-			height: 8rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
+			width: 9rem;
+			height: 9rem;
+			line-height: 7.5rem;
+			/*border: solid 1px #ffffff;
+			border-radius: 100%;*/
 			align-items: center;
 			justify-content: center;
 		}
